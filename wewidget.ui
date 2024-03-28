@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WeWidget</class>
+ <widget class="QWidget" name="WeWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>753</width>
+    <height>626</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="buttonReturn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>520</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>10</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>系统教程</string>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>70</y>
+     <width>581</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;sdqwqdqw&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;11111111111111111&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>-10</x>
+       <y>-70</y>
+       <width>711</width>
+       <height>691</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(60, 60, 60, 0);
+padding-left: 5px;
+padding-right: 5px;
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;### 软件系统使用教程&lt;/p&gt;&lt;p&gt;欢迎使用基于QT的智能家居控制系统！&lt;/p&gt;&lt;p&gt;本教程将指导您如何使用系统的各项功能，请按照以下步骤逐步操作：&lt;/p&gt;&lt;p&gt;### 步骤 1：设备控制&lt;/p&gt;&lt;p&gt;1. 您将看到LED灯、风扇和蜂鸣器的控制按钮。&lt;/p&gt;&lt;p&gt;2. 单击相应的按钮以控制设备的开关状态。&lt;/p&gt;&lt;p&gt;3. 您还可以在手动模式和自动模式之间切换，根据需要进行调整。&lt;/p&gt;&lt;p&gt;### 步骤 2：环境监测&lt;/p&gt;&lt;p&gt;1. 界面将显示当前环境的温度、湿度、人体红外和烟雾等信息。&lt;/p&gt;&lt;p&gt;2. 监测数据将每秒更新一次，您可以实时了解环境的状况。&lt;/p&gt;&lt;p&gt;### 步骤 3：天气预报&lt;/p&gt;&lt;p&gt;1. 输入您所在城市的名称，并单击“搜索”按钮。&lt;/p&gt;&lt;p&gt;2. 界面将显示您所在城市的当前天气信息，包括温度、风力、空气质量等。&lt;/p&gt;&lt;p&gt;3. 您还可以查看未来几天的天气趋势图。&lt;/p&gt;&lt;p&gt;### 注意事项：&lt;/p&gt;&lt;p&gt;- 在使用系统过程中，如遇到任何问题，请参考系统教程或联系技术支持人员进行帮助。&lt;/p&gt;&lt;p&gt;祝您使用愉快，享受智能家居带来的便利和舒适！&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>601</width>
+       <height>561</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(60, 60, 60, 0);
+padding-left: 5px;
+padding-right: 5px;
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;### 硬件系统使用教程&lt;/p&gt;&lt;p&gt;#### 1. 启动系统&lt;/p&gt;&lt;p&gt;- 将系统电源接通，并等待系统启动完成。&lt;/p&gt;&lt;p&gt;- LCD 屏幕将显示欢迎界面，系统会自动进行初始化。&lt;/p&gt;&lt;p&gt;#### 2. 主页面显示&lt;/p&gt;&lt;p&gt;- 进入主页面后，LCD 屏幕将显示当前环境的实时数据，包括温度、湿度、烟雾浓度以及人体红外监测状态。&lt;/p&gt;&lt;p&gt;- 温度和湿度数据由 DHT11 传感器获取。&lt;/p&gt;&lt;p&gt;- 烟雾浓度数据由 MQ2 传感器获取。&lt;/p&gt;&lt;p&gt;- 人体红外监测状态由 SR501 传感器获取。&lt;/p&gt;&lt;p&gt;#### 3. 控制设备&lt;/p&gt;&lt;p&gt;- LCD 屏幕上将显示控制按钮，用于控制系统中的各种设备，如 LED 灯、蜂鸣器和小风扇。&lt;/p&gt;&lt;p&gt;- 您可以点击 LCD 屏幕上的相应按钮来切换设备的开关状态。&lt;/p&gt;&lt;p&gt;- 控制按钮的状态将实时更新，以反映设备的当前状态。&lt;/p&gt;&lt;p&gt;#### 4. 远程控制&lt;/p&gt;&lt;p&gt;- 智能家居控制系统支持远程控制功能，您可以通过连接到系统的 Wi-Fi 热点并使用相应的客户端应用程序来发送命令和接收传感器数据。&lt;/p&gt;&lt;p&gt;- 在连接到系统的 Wi-Fi 热点后，打开客户端应用程序，并输入系统的 IP 地址和端口号以连接到系统。&lt;/p&gt;&lt;p&gt;- 一旦连接成功，您可以通过客户端应用程序发送命令来控制系统中的各种设备，并实时监测环境数据。&lt;/p&gt;&lt;p&gt;#### 5. 警报安全功能&lt;/p&gt;&lt;p&gt;- 当系统监测到环境中的烟雾浓度超过安全阈值时，将触发警报功能。&lt;/p&gt;&lt;p&gt;- 警报功能包括启动风扇通风、点亮红色报警灯和启动蜂鸣器。&lt;/p&gt;&lt;p&gt;- 如果触发警报，系统将立即采取措施以确保环境的安全，并通过 LCD 屏幕上的警告消息通知用户。&lt;/p&gt;&lt;p&gt;#### 6. 登录模块&lt;/p&gt;&lt;p&gt;- 智能家居控制系统支持密码登录和 RFID 登录两种方式。&lt;/p&gt;&lt;p&gt;- 如果选择密码登录，LCD 屏幕将显示密码输入框，用户可以输入正确的密码来登录系统。&lt;/p&gt;&lt;p&gt;- 如果选择 RFID 登录，用户需要将预先配置的 RFID 卡靠近系统的读卡器，系统将自动识别并验证卡片信息来登录系统。&lt;/p&gt;&lt;p&gt;通过以上详细的步骤，您应该能够轻松地使用您的智能家居控制系统了。如果您在使用过程中遇到任何问题或需要进一步的帮助，请随时联系我们的技术支持团队。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>70</y>
+       <width>92</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>下一页</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>-10</x>
+       <y>0</y>
+       <width>591</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(60, 60, 60, 0);
+padding-left: 5px;
+padding-right: 5px;
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;- 一旦连接成功，您可以通过客户端应用程序发送命令来控制系统中的各种设备，&lt;/p&gt;&lt;p&gt;并实时监测环境数据。&lt;/p&gt;&lt;p&gt;#### 5. 警报安全功能&lt;/p&gt;&lt;p&gt;- 当系统监测到环境中的烟雾浓度超过安全阈值时，将触发警报功能。&lt;/p&gt;&lt;p&gt;- 警报功能包括启动风扇通风、点亮红色报警灯和启动蜂鸣器。&lt;/p&gt;&lt;p&gt;- 如果触发警报，系统将立即采取措施以确保环境的安全，&lt;/p&gt;&lt;p&gt;并通过 LCD 屏幕上的警告消息通知用户。&lt;/p&gt;&lt;p&gt;#### 6. 登录模块&lt;/p&gt;&lt;p&gt;- 智能家居控制系统支持密码登录和 RFID 登录两种方式。&lt;/p&gt;&lt;p&gt;- 如果选择密码登录，LCD 屏幕将显示密码输入框，&lt;/p&gt;&lt;p&gt;用户可以输入正确的密码来登录系统。&lt;/p&gt;&lt;p&gt;- 如果选择 RFID 登录，用户需要将预先配置的 RFID 卡靠近系统的读卡器，&lt;/p&gt;&lt;p&gt;系统将自动识别并验证卡片信息来登录系统。&lt;/p&gt;&lt;p&gt;通过以上详细的步骤，您应该能够轻松地使用您的智能家居控制系统了。&lt;/p&gt;&lt;p&gt;如果您在使用过程中遇到任何问题或需要进一步的帮助，请随时联系我们的技术支持团队。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="byj">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>软件系统</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="brj">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>硬件系统</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
